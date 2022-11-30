@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Space+Grotesk&display=swap" rel="stylesheet">
+<body>
+<body>
+  <div class="container">
+    <header>
+      <img src="LOGO_REDTRA.png" alt="">
+      <h1 id="title">GET IN TOUCH</h1>
+
+      <p id="description" >  Interested in working together? fill the form below and i wil be in touch! </p>
+    </header>
+     <form id="survey-form" action="index.html" method="post">
+
+
+        <label class="form-group" id="name-label" for="name">NAME*</label>
+        <input id="name" class="form-control"  type="text" name="" value="" placeholder="First-name" required>
+        <input class="form-control"  type="text" name="" value="" placeholder="last-name" required>
+
+    <div class="form-group">
+        <label id="email-label" for="name">E-MAIL*</label>
+        <input id="email" class="form-control"  type="email" name="" value="" placeholder="e-mail" required>
+
+      </div>
+
+      <div class="form-group">
+        <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+        <input type="number" name="age" id="number" min="18" max="99" class="form-control" placeholder="Age">
+      </div>
+      <div class="form-group">
+        <label id="services-label" >Services of interest:Asesoria o creación </label>
+
+        <label>  <input name="identidad" value="Identidad-asesoria" type="radio" class="input-checkbox" checked= "false">
+          <input name="identidad" value="Identidad-creacion" type="radio" class="input-checkbox">Identidad de marca</label>
+        <label>  <input name="Estrategia" value="Estrategia-asesoria" type="radio" class="input-checkbox" >
+          <input name="Estrategia" value="Estrategia-creacion" type="radio" class="input-checkbox" >Estrategia de contenidos </label>
+        <label>  <input name="Creacion" value="Creación-creacion" type="radio" class="input-checkbox" >
+        <input name="Creacion" value="Creación-creacion" type="radio" class="input-checkbox" >  Creación de contenido. </label>
+
+      </div>
+      <div class="form-group">
+        <label id="services-label" >Tipo de proyecto:</label>
+
+        <label>  <input name="identidad" value="Identidad" type="checkbox" class="input-checkbox"  >Marca personal.</label>
+        <label>  <input name="Estrategia" value="Estrategia" type="checkbox" class="input-checkbox" >Emprendimiento/negocio. </label>
+        <label>  <input name="Creacion" value="Creación" type="checkbox" class="input-checkbox" >Proyecto artístico. </label>
+
+      </div>
+
+
+
+
+      <div class="form-group">
+        <label id="date-label" >What is your ideal launch date?*</label>
+        <input  class="form-control" type="date" name="" value="" placeholder="Date" required>
+      </div>
+
+      <div class="form-group">
+        <label id="find-label" >How did you find TEFANI?</label>
+        <select id="dropdown" name="mostLike" class="form-control" required="">
+          <option disabled="" selected="" value="">Select an option*</option>
+          <option value="Instagram">Instagram</option>
+          <option value="Behance">Behance</option>
+          <option value="Google ADS">Google ADS</option>
+          <option value="Recommendation">Recommendation</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label id="textbox-label" for="text">Tell me more about your creative needs*</label>
+        <textarea id="comments" class="input-textarea" name="comment"></textarea>
+
+      </div>
+<div class="form-group">
+
+
+        <button type="submit" id="submit" class="form-group">
+          Submit
+        </button>
+</div>
+
+
+    </form>
+  </div>
+</body>

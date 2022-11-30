@@ -1,0 +1,119 @@
+body{
+  font-family:Quicksand;
+
+   background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(121,9,9,1) 45%, rgba(40,4,4,1) 100%);
+  display: flex;
+  justify-content:space-around;
+}
+h1{
+  font-family: Space Grotesk;
+  color: red;
+}
+header{
+  line-height: 20px;
+  max-width: 500px;
+  align-content: center;
+  margin-left: 50px;
+  margin-right:50px;
+
+}
+p{
+  color:white;
+  font-size: 17px;
+}
+label{
+  margin-bottom:5px;
+  color: white;
+}
+.container{
+
+  background-color: black;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+input{
+  max-width: 400px;
+  margin-top: 5px;
+  font-family: Quicksand;
+  text-align: center;
+  color: white;
+}
+img{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  float: right;
+  margin-top:-50px;
+}
+
+
+select{
+  max-width:400px;}
+  textarea{
+    max-width:400px;
+    color: white;
+    font-family: Quicksand;
+  }
+  button{
+    max-width:400px;
+    align-items: center;
+  }
+  .form-control, textarea{
+    border-bottom: 1px solid red;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: #1a1a1a;
+
+  }
+  .form-group select
+  input text #email{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+
+  select{
+
+    border-bottom: 1px solid red;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: #1a1a1a;
+    color: white;
+
+  }
+  #dropdown{
+    color: gray;
+    font-family: Quicksand;
+  }
+#submit{
+  text-decoration-color: white;
+    border-radius: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Space Grotesk;s
+    color: white;
+    background-color: red;
+    text-transform: uppercase;
+  }
+  button{
+color:white;
+
+
+
+  }
